@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const time = now.toLocaleTimeString();
 
         // Send data to the backend (Google Apps Script)
-        fetch('https://script.google.com/macros/s/AKfycbwk-NOlbZ4LIjac2XXrgq0TqpAVLNbB7yhac30qhWtNqVUVi8Zl65duMQQVZ4DuRXBh/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbx3cpWKUVHxooM8wFyVRW7cew-uBAFgFov452wc_fI/dev', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
